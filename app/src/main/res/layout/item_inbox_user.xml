@@ -21,13 +21,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="12dp">
+            android:padding="12dp"
+            android:gravity="center_vertical"> <!-- Căn giữa các thành phần -->
 
             <ImageView
                 android:id="@+id/avatarImageView1"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/ic_avatar_placeholder"
+                android:src="@drawable/slider1"
                 android:layout_marginEnd="16dp"
                 android:scaleType="centerCrop"
                 android:background="@drawable/circle_background" />
@@ -56,13 +57,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="12dp">
+            android:padding="12dp"
+            android:gravity="center_vertical"> <!-- Căn giữa các thành phần -->
 
             <ImageView
                 android:id="@+id/avatarImageView2"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/ic_avatar_placeholder"
+                android:src="@drawable/slider2"
                 android:layout_marginEnd="16dp"
                 android:scaleType="centerCrop"
                 android:background="@drawable/circle_background" />
